@@ -18,7 +18,7 @@ import javax.swing.JOptionPane;
 public class Database {
     String host="http://localhost:3306";
     String username="root";
-    String password="12345678Aa";
+    String password="*****";
     public Connection connect() throws ClassNotFoundException{
         Connection conn;
         Class.forName("com.mysql.cj.jdbc.Driver");
